@@ -1,1 +1,46 @@
- 
+.header {
+  background-color: #3a0fa2;
+  padding: 0.5rem;
+}
+.header__logo {
+  color: #fff;
+  font-size: 1.5rem;
+  text-decoration: none !important;
+}
+.header__logo:hover {
+  color: #fff;
+}
+.add__movie {
+  color: #fff;
+  outline: 0 !important;
+}
+.add__movie:hover {
+  color: #000;
+  background-color: #fff;
+  box-shadow: none;
+}
+.moviesec__list {
+  display: flex;
+  flex-wrap: wrap;
+}
+.moviesec__list li {
+  list-style: none;
+  width: 20%;
+  padding: 1rem;
+}
+.moviesec__list li img {
+  width: 100%;
+  height: 20rem;
+  object-fit: cover;
+}
+.moviesec__item h3 {
+  font-size: 28px;
+  margin-top: 20px;
+}
+.add__movie .container{
+  background-color: #f5f5f5;
+}
+button{
+  background-color: #3a0fa2!important;
+  color: #fff!important;
+}
