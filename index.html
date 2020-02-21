@@ -1,0 +1,38 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Document</title>
+  <link rel="stylesheet" href="http://ms.npglobal.in/jss_new/css/bootstrap.min.css">
+  <link rel="stylesheet" href="app.css">
+</head>
+
+<body>
+  <div class="container mt-5">
+    <div class="row text-right">
+      <div class="col-md-2"><input type="text" class="form-control" placeholder="Enter Name" id="name"></div>
+      <div class="col-md-2"><input type="text" class="form-control" placeholder="Enter Email" id="email"></div>
+      <div class="col-md-2"><input type="text" class="form-control" placeholder="Enter Phone" id="phone"></div>
+      <div class="col-md-1"><button id="add-btn" class="btn btn-primary">Add</button></div>
+      <div class="col-md-4 border-left"><input type="text" class="form-control" placeholder="Enter Name" id="filter">
+      </div>
+      <div class="col-md-1"><button id="search-btn" class="btn btn-primary">Search</button></div>
+    </div>
+    <table class="mt-4 table table-hover table-srtiped table-bordered">
+      <thead>
+        <tr>
+          <th>Name</th>
+          <th>Email</th>
+          <th>Phone</th>
+          <th>Action</th>
+        </tr>
+      </thead>
+      <tbody id="tbodydata"></tbody>
+    </table>
+  </div>
+  <script src="app.js"></script>
+</body>
+
+</html>
